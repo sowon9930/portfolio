@@ -36,15 +36,8 @@ $(function(){
     $(`body`).css({'overflow':'auto'})
   })
 
-  $(`.contact-section .mail`).click(function(){
-    navigator.clipboard.writeText("thwls9930@gmail.com")
-    alert("이메일이 클립보드에 복사되었습니다.")
-  })
-  $(`.contact-section .tel`).click(function(){
-    navigator.clipboard.writeText("010-6313-9930")
-    alert("전화번호가 클립보드에 복사되었습니다.")
-  })
-  $(`.contact-section .github`).click(function(){
-    
-  })
+  var clipboard = new ClipboardJS('.btn');
+  clipboard.on('success', function(e) {
+      alert('클립보드에 복사되었습니다.')
+  });
 })//ready

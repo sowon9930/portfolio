@@ -12,8 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- icon -->
   <script src="https://kit.fontawesome.com/840ac6e70a.js" crossorigin="anonymous"></script>
-  <!-- jquery -->
+  <!-- cdn -->
   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
   <!-- script -->
   <script src="./js/header.js"></script>
   <script src="./js/common.js"></script>

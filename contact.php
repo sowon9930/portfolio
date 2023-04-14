@@ -16,11 +16,11 @@
         포트폴리오를 봐주셔서 감사합니다 :&#41;
       </p>
       <p>
-        <button class="mail">
+        <button class="btn" data-clipboard-text="thwls9930@gmail.com">
           <i class="fa-solid fa-envelope"></i>
           Mail
         </button>
-        <button class="tel">
+        <button class="btn" data-clipboard-text="01063139930">
           <i class="fa-solid fa-phone"></i>
           Tel
         </button>
