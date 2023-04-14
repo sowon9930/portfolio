@@ -1,4 +1,4 @@
-<section class="about-section section scr-section scr-section2 scr-section2-scr" data-n="2">
+<section class="about-section" id="about">
   <div class="about-profile">
     <div class="contents-left-wrap">
       <figure>
@@ -53,7 +53,8 @@
           흥미로운 경험을 제공하고 싶습니다.
         </p>
         <p>
-          개발은 혼자 하는 일이 아닌 만큼 사람들 간의 약속, 그리고 소통이 중요하다고 생각합니다. <br>
+          개발은 혼자 하는 일이 아닌 만큼 <br>
+          사람들 간의 약속, 그리고 소통이 중요하다고 생각합니다. <br>
           항상 협업과 유지보수에 좋은 코드를 짜기 위해 꾸준히 공부하고 있습니다.<br>
           유연한 소통을 할 수 있도록, 항상 경청하고 열린 자세로 임하며 성장해 나가겠습니다.</p>
         <p>

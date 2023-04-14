@@ -1,10 +1,7 @@
-<section class="home-section section scr-section scr-section1 scr-section1-scr" data-n="1">
-
-  <figure class="bg">
-    <img class="moon" src="./img/home/moon.png" alt="">
-    <img class="bg" src="./img/home/bg.jpg" alt="">
-  </figure>
-
+<section class="home-section" id="intro">
+  <div>
+    <img class="moon" src="./img/home/moon.png" alt="달 배경">
+  </div>
   <div class="textbox">
     <div class="inner">
       <h1>
@@ -14,7 +11,7 @@
       <p>Web publisher & Web Developer Portfolio</p>
     </div>
     <em>
-      <span>Welcome To My Portfolio :)</span>
+      <span>Welcome To My Portfolio : &#41; </span>
       <span class="nexon">
         트렌드에 민감하고 변화에 적극적인
       </span>

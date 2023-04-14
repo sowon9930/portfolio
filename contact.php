@@ -1,4 +1,4 @@
-<section class="contact-section scr-section scr-section9 scr-section9-scr" data-n="9">
+<section class="contact-section" data-n="9">
   <div class="contact-container">
     <figure>
       <img src="./img/about/iu.jfif" alt="프로필사진">
@@ -13,18 +13,18 @@
       <p>
         오늘보다 내일 더 멋진 사람이 되도록 노력하는,<br>
         웹 개발자 김소진입니다.<br>
-        포트폴리오를 봐주셔서 감사합니다 :)
+        포트폴리오를 봐주셔서 감사합니다 :&#41;
       </p>
       <p>
-        <button>
+        <button class="mail">
           <i class="fa-solid fa-envelope"></i>
           Mail
         </button>
-        <button>
+        <button class="tel">
           <i class="fa-solid fa-phone"></i>
           Tel
         </button>
-        <button>
+        <a href="https://github.com/sowon9930?tab=repositories" target="_blank" class="github">
           <i class="fa-brands fa-github"></i>
           Github
         </button>

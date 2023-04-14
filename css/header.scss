@@ -1,32 +1,51 @@
-header{
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  border-bottom: 1px solid #fff;
-  &.active {
+body{
+  div.section_bg{
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.05);
-    top: 0px;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-image: linear-gradient(180deg, rgb(158, 147, 203) 50%, rgb(225, 213, 252) 100%);
+    img{
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      top: 0; left: 0 ;
+      mix-blend-mode: hard-light;
+    }//img
+  }//bg 고정
+  header{
+    position: absolute;
+    z-index: 100;
+    top: 0;
     width: 100%;
     height: 70px;
     border-bottom: 1px solid #fff;
-  } //active
-  .inner{
-    display: flex;
-    margin: 0 auto;
-    width: 90%;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    nav.menu{
+    &.active {
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.05);
+      top: 0px;
+      width: 100%;
+      height: 70px;
+      border-bottom: 1px solid #fff;
+    } //active
+    .inner{
       display: flex;
-      @media screen and (max-width:1000px){
-        padding-left: 20px;
-      }
-      button{
-        i{
+      margin: 0 auto;
+      width: 90%;
+      height: 100%;
+      justify-content: space-between;
+      align-items: center;
+      nav.menu{
+        display: flex;
+        @media screen and (max-width:1000px){
+          padding-left: 20px;
+        }
+        a{
           padding:0 20px;
           color: #fff;
           font-size: 1.1em;
@@ -34,8 +53,8 @@ header{
             padding: 0 5px;
             font-size: 0.9em;
           }
-        }//i
-      }//button
-    }//menu
-  }//inner
-}//header
+        }//button
+      }//menu
+    }//inner
+  }//header
+}//body

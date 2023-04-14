@@ -1,7 +1,8 @@
 .contact-section {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: relative;
+  /* active motion after */
 }
 .contact-section .contact-container {
   position: absolute;
@@ -15,7 +16,6 @@
   align-items: center;
   justify-content: center;
   /* active motion before*/
-  /* active motion after */
 }
 @media screen and (max-width: 1000px) {
   .contact-section .contact-container {
@@ -80,7 +80,9 @@
     flex-direction: column;
   }
 }
-.contact-section .contact-container .textbox p:nth-child(4) button {
+.contact-section .contact-container .textbox p:nth-child(4) button,
+.contact-section .contact-container .textbox p:nth-child(4) .github {
+  display: block;
   width: 180px;
   height: 50px;
   border-radius: 30px;
@@ -88,14 +90,18 @@
   margin-right: 20px;
   border: 1px solid #fff;
   transition: all 0.3s;
+  text-align: center;
+  line-height: 50px;
 }
 @media screen and (max-width: 1000px) {
-  .contact-section .contact-container .textbox p:nth-child(4) button {
+  .contact-section .contact-container .textbox p:nth-child(4) button,
+  .contact-section .contact-container .textbox p:nth-child(4) .github {
     width: 100%;
     margin-bottom: 10px;
   }
 }
-.contact-section .contact-container .textbox p:nth-child(4) button:hover {
+.contact-section .contact-container .textbox p:nth-child(4) button:hover,
+.contact-section .contact-container .textbox p:nth-child(4) .github:hover {
   background-color: #fff;
   color: var(--main-color);
 }
@@ -105,22 +111,23 @@
 .contact-section .contact-container .textbox p {
   transform: translateX(-10%);
   opacity: 0;
+  transition: transform 0.7s, opacity 0.5s;
 }
-.contact-section .contact-container.active figure {
+.contact-section.active .contact-container figure {
   filter: grayscale(0);
   transition: all 1s;
 }
-.contact-section .contact-container.active .textbox p {
+.contact-section.active .contact-container .textbox p {
   transform: translateX(0);
   opacity: 1;
   transition: transform 0.7s, opacity 0.5s;
 }
-.contact-section .contact-container.active .textbox p:nth-child(2) {
+.contact-section.active .contact-container .textbox p:nth-child(2) {
   transition-delay: 0.5s;
 }
-.contact-section .contact-container.active .textbox p:nth-child(3) {
+.contact-section.active .contact-container .textbox p:nth-child(3) {
   transition-delay: 1s;
 }
-.contact-section .contact-container.active .textbox p:nth-child(4) {
+.contact-section.active .contact-container .textbox p:nth-child(4) {
   transition-delay: 1.5s;
 }/*# sourceMappingURL=contact.css.map */

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: inherit;
   font-size: inherit;
@@ -14,6 +15,17 @@ body {
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
+}
+body main {
+  overflow: hidden;
+  position: relative;
+}
+body main section {
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+  box-sizing: border-box;
+  scroll-snap-align: start;
 }
 
 @font-face {
@@ -84,8 +96,99 @@ body {
   font-family: "Noto Sans KR";
 }
 
+.quick {
+  font-family: "Quicksand";
+}
+
 :root {
   --main-color:#b5a4ea;
-  --sub-color:#0077c0;
-  --dark-color:#1d242b;
+}
+
+.blue1 {
+  background-color: #4e8cc2;
+}
+
+.blue2 {
+  background-color: #0272bc;
+}
+
+.dark-blue {
+  background-color: #3a6d81;
+}
+
+.sky {
+  background-color: #8ed1f1;
+}
+
+.light-yellow {
+  background-color: #fee5b1;
+}
+
+.yellow {
+  background-color: #ffcc00;
+}
+
+.navy {
+  background-color: #203e5f;
+}
+
+.dark-navy {
+  background-color: #000a16;
+}
+
+.dark-navy2 {
+  background-color: #18222b;
+}
+
+.dark-navy-t {
+  color: #000a16;
+}
+
+.dark-gray {
+  background-color: #333;
+}
+
+.dark-gray2 {
+  background-color: #3a3a3a;
+}
+
+.gray {
+  background-color: #666666;
+}
+
+.brown {
+  background-color: #8e7760;
+}
+
+.ivory {
+  background-color: #bbb1a6;
+}
+
+.ivory2 {
+  background-color: #eee3d5;
+}
+
+.light-yellow2 {
+  background-color: #f4d1ae;
+}
+
+.light-orange {
+  background-color: #ffc879;
+}
+
+.orange {
+  background-color: #f68e56;
+}
+
+.black {
+  background-color: #000;
+}
+
+.not-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.not-scroll {
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
 }/*# sourceMappingURL=style.css.map */

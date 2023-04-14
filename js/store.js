@@ -42,3 +42,21 @@ FontArr2 = [
     desc: ' 가나다라마바사아자차카타파하 <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ <br> abcdefghijklmnopqrstuvwxyz <br> 0123456789 '
   },
 ]
+
+FontArr3 = [
+  {
+    name1: 'Noto Sans KR',
+    weight1: 'Bold',
+    weight2: 'Medium',
+    weight3: 'Regular',
+    desc: ' 가나다라마바사아자차카타파하 <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ <br> abcdefghijklmnopqrstuvwxyz <br> 0123456789 '
+  },
+  {
+    name1:'Quicksand',
+    name2:'quick',
+    weight1: 'Bold',
+    weight2: 'Medium',
+    weight3: 'Regular',
+    desc: ' 가나다라마바사아자차카타파하 <br> ABCDEFGHIJKLMNOPQRSTUVWXYZ <br> abcdefghijklmnopqrstuvwxyz <br> 0123456789 '
+  },
+]
