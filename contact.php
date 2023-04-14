@@ -1,7 +1,7 @@
 <section class="contact-section" data-n="9">
   <div class="contact-container">
     <figure>
-      <img src="./img/about/iu.jfif" alt="프로필사진">
+      <img src="./img/contact/profil.jpg" alt="프로필사진">
     </figure>
     <div class="textbox">
       <p>A genius cannot win over one who tries,<br>

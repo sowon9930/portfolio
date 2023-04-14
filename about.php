@@ -2,7 +2,7 @@
   <div class="about-profile">
     <div class="contents-left-wrap">
       <figure>
-        <img src="./img/about/iu.jfif" alt="프로필사진">
+        <img src="./img/about/profil.jpg" alt="프로필사진">
       </figure>
 
       <ul class="profile-info">
